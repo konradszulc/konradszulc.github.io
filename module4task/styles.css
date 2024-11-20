@@ -51,7 +51,7 @@ footer {
 #scndh1 {
     border-style: groove;
     border-width: 5px;
-    border-color: teal;
+    border-color: blue;
     background-color: teal;
     text-align:center;
 }
@@ -59,7 +59,7 @@ footer {
 #scndh2 {
     border-style: ridge;
     border-width: 3px;
-    border-color: lightgreen;
+    border-color: green;
     background-color: lightgreen;
     text-align:center;
 }
