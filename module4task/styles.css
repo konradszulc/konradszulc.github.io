@@ -1,0 +1,92 @@
+div {
+    margin-top:0px;
+    padding:0px;
+}
+
+#firstpgh1 {
+    text-align:center;
+}
+
+nav {
+    text-align:center;
+}
+
+#menu{
+    list-style:none;
+}
+
+#list {
+    
+    display: inline-block;
+    text-align:left;
+}
+
+#main-content {
+    text-align:center;
+}
+
+footer {
+    border-top:solid; 
+    border-width: 1px;
+}
+
+#scndpg {
+    background-image: url('Images/pexels-padrinan-255379.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#frstimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#scndimg {
+    border-bottom: double;
+    text-align:center;
+}
+
+#scndh1 {
+    border-style: groove;
+    border-width: 5px;
+    border-color: teal;
+    background-color: teal;
+    text-align:center;
+}
+
+#scndh2 {
+    border-style: ridge;
+    border-width: 3px;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    text-align:center;
+}
+
+#para1 {
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 15px;
+    border-width:2px;
+    background-color: grey;
+    width: 150px;
+    padding: 5px 0px 0px 10px;
+    margin:auto;
+}
+
+#para2 {
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 25px;
+    background-color: grey;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+}
+
+section {
+text-align:center;
+}
