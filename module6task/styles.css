@@ -87,7 +87,7 @@ figure {
     padding-bottom:20px;
 }
 
-@media (max-width:2000px) {
+@media (max-width:600px) {
      #vert-nav-div, #section-div, #article-div {
         width:100%;
         height:auto;
@@ -106,7 +106,7 @@ figure {
     margin: auto;
 }
 
-@media screen and (max-width:2000px) {
+@media screen and (max-width:600px) {
     .column {
         width:100%;
     }
