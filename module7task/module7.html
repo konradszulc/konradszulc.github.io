@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Module 7 Content Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="module7.html">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myself">Myself</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#travels">Travels</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div id="myself" class="container-fluid bg-1 text-center">
+  <h3 class="margin">My Name is Konrad Szulc</h3>
+  <img src="Images/profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="person sitting" width="350" height="350">
+  <h3>I like to explore, and lately my newest adventure is school.</h3>
+</div>
+
+<!-- Second Container -->
+<div id="hobbies" class="container-fluid bg-2 text-center">
+  <h3 class="margin">My Hobbies</h3>
+  <p>Hobbies are what make us who we are. Some hobbies I enjoy are reading, gaming, and travelling. While I dabble in other hobbies like fitness and sports, I wouldn't classify those as huge impacts on my personality </p>
+  <a href="Images/horse_riding.jpg" target="_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon"></span> Second Pic of Me?
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="travels" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">My Recent Travels</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>I have travelled to Italy, experiencing what Rome has to offer</p>
+      <img src="Images/pexels-julius-silver-240301-753639.jpg" class="img-responsive margin" style="width:100%" alt="vatican">
+    </div>
+    <div class="col-sm-4"> 
+      <p>I have been to Poland, I went to a town called Zakopane, which is at the base of the Tatra Mountains</p>
+      <img src="Images/pexels-josh-hild-1270765-2692254.jpg" class="img-responsive margin" style="width:100%" alt="log cabin/mountain">
+    </div>
+    <div class="col-sm-4"> 
+      <p>I have seen California USA, and witnessed what LA/Hollywood is all about</p>
+      <img src="Images/pexels-pauldeetman-2695679.jpg" class="img-responsive margin" style="width:100%" alt="hollywood sign">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+  <br><br>
+  <p>New Content added by Konrad Szulc 2024</p>
+</footer>
+
+</body>
+</html>
