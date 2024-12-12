@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fluffy Ears Pet Adoption</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preload" as="image" href="images/cat-look.jpg">
+  <link rel="preload" as="image" href="images/two-dog-sit.jpg">
+  <link rel="preload" as="image" href="images/dogs-run.jpg">
+  <link rel="preload" as="image" href="images/cat-lay.jpg">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-text-white w3-button w3-hide-small">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-mortar-board"></i> HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-heart"></i>ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-group"></i>PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a class="w3-bar-item w3-hide-small w3-right "><img src="images/fluffy_ears_logo.png" alt="cat dog logo" width="60" height="30" ></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-button" onclick="toggleFunction()">HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-animate-opacity w3-wide">Fluffy Ears<br></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-animate-opacity w3-wide">Adoption</span>
+  </div>
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <br><br><br><br><br>
+    <img src="images/fluffy_ears_logo.png" class="w3-center w3-wide w3-animate-opacity" alt="cat dog logo" width="60" height="30" >
+  </div>
+  
+</div>
+
+<!-- Container (History Section) -->
+<div class="w3-content w3-container w3-padding-64" id="history">
+  <h3 class="w3-center">Our History</h3>
+  <p class="w3-center"><em>Established in 2005</em></p>
+  <p>To keep domestic animals off the streets into the arms of loving families, Fluffy Ears Adoption, aimed to be a protecter of abandoned domestic pets, and strays. Giving them the life they deserve and enriching families lives with their new family friend.
+    Raising awareness since 2005 and still going strong, in 2015, we recieved the Happy Paws reward from our local community in Lohja, Finland. But it didnt stop then, every year we strive to do better than the last. 
+    With collaboration with our partners and charities growing every year, we continue to stregthen our efforts to save lifes and create families.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Founder Konrad Szulc</b></p><br>
+      <img src="images/profile.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="350" height="200">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome, my name is Konrad Szulc. A long time ago, I disliked seeing my local neighbourhood riddled with all types of abandoned domestic animals. I was so disheartned by their treatment and how unsafe it was for them especially in nordic countries, 
+        where the weather gets too cold for them to survive. Thus I wanted to make a change, and since then have been putting my two feet forward to combat this problem. 
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <p>Follow us on Social Media</p>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Copyright &copy; 2024 Fluffy Ears Adoption <br> Utlizing Template from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-grey";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-grey", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

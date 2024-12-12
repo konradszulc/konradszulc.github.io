@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fluffy Ears Pet Adoption</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-text-white w3-button w3-hide-small">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-mortar-board"></i> HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-heart"></i>ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-group"></i>PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a class="w3-bar-item w3-hide-small w3-right "><img src="images/fluffy_ears_logo.png" alt="cat dog logo" width="60" height="30" ></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-button" onclick="toggleFunction()">HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">ABOUT US</span>
+  </div>
+</div>
+
+<!--container (About Section)-->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">What You Need To Know</h3>
+  <p class="w3-center"><em>We Love Animals</em></p>
+  <p>We host events every month on the last sunday of the month, but our shelters are open 9-5pm for visitors. If you would like to donate, our donation box is open 24/7 outside any shelter. 
+    We are trying to make a difference, every bit helps. You are also welcome to volunteer, or work for us, please get in contact on our contact page. We currently have about 100+ employees with shelters throughout the nordic countries.
+    Our animals have constant checks to the vets, and are vaccinated/dewormed. We strive to have them in good health and fit their specific needs. As much as we love all of them, we are happy to give them to families who love them as much as we do.</p>
+  
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1/3</div>
+      <img src="images/cat_couch.jpg" style="width:100%" alt="cat on couch">
+      <div class="text">Monke Saved in 2022</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2/3</div>
+      <img src="images/cat_lights.jpg" style="width:100%" alt="cat sitting on xmas lights">
+      <div class="text">Cobi enjoying the warmth, rescued in 2024</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3/3</div>
+      <img src="images/dogs_outside_sit.jpg" style="width:100%" alt="dogs sitting out">
+      <div class="text">CoCo and Cola living their best lives since 2020</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    
+      
+      
+
+  <p class="w3-large w3-center w3-padding-16">Our Goals Progression for 2024:</p>
+  <p class="w3-wide"><i class="fa fa-money"></i>Money Raised</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-green w3-center" style="width:57%">8560/15000</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-calendar-check-o"></i>Events held</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-green w3-center" style="width:83%">10/12</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-heartbeat"></i>Animals Saved and Adopted</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-green w3-center" style="width:70%">35/50</div>
+  </div>
+</div>
+      
+      <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">15+</span><br>
+          Partners
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">10+</span><br>
+          Involved Charities
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">20+</span><br>
+          Shelters Owned
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">1000+</span><br>
+           Pets Adopted and Rescued
+        </div>
+      </div>
+    
+
+      <!-- Footer -->
+      <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <p>Follow us on Social Media</p>
+        <div class="w3-xlarge w3-section">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+          <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+          <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <p>Copyright &copy; 2024 Fluffy Ears Adoption <br> Utlizing Template from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      </footer>
+
+      <script>
+        // Modal Image Gallery
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+          captionText.innerHTML = element.alt;
+        }
+        
+        // Change style of navbar on scroll
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-grey";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-grey", "");
+            }
+        }
+        
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        } 
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html>

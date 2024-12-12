@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fluffy Ears Pet Adoption</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-text-white w3-button w3-hide-small">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-mortar-board"></i> HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-heart"></i>ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-group"></i>PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-text-white w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a class="w3-bar-item w3-hide-small w3-right "><img src="images/fluffy_ears_logo.png" alt="cat dog logo" width="60" height="30" ></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="index.html#history" class="w3-bar-item w3-button" onclick="toggleFunction()">HISTORY</a>
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="animals.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ANIMALS</a>
+    <a href="partners.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERS</a>
+    <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+  <!-- third Parallax Image with Animals Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">ANIMALS</span>
+    </div>
+  </div>
+  
+  <!-- Container (Dogs Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="animalsdogs">
+    <h2 class="w3-center">DOGS</h2>
+    <p class="w3-center"><em>Just a few dogs we helped deliver to happy homes and awaiting new ones<br> Click on them for a better look at how cute they are!</em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="images/dog_comfy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="orange dog staring">
+        <p>Otto Rescued in 2021 (Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/dogsit.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hönö sitting">
+        <p>Hönö Rescued in 2017(Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/dog_fence.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="dog on fence">
+        <p>Pipsqueak Rescued in 2023(Adoption Avail.)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/dog_sad.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="orange dog sad">
+        <p>Airbud Rescued in 2022(Adopted)</p>
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="images/dogs_cobble.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="dog on cobble">
+        <p>Oliver Rescued in 2020(Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/dog_road.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="dog on road">
+        <p>Russ Rescued in 2022(Adoption Avail.)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/pug_look.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pug staring">
+        <p>Custard Rescued in 2019(Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/poodle_puppy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="puppy standing">
+        <p>Rasco Rescued in 2024(Adoption Avail.)</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64 w3-center">
+  <img src="images/fluffy_ears_logo.png" class="w3-center w3-wide w3-animate-opacity" alt="cat dog logo" style="width:50%" >
+  </div>
+
+  <!-- Container (Cats Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="animalscats">
+    <h3 class="w3-center">CATS</h3>
+    <p class="w3-center"><em>Time to show off some of the wonderful cats we have rescued<br> Click on them for a better look at how cute they are!</em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="images/cat_held.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kitten being held">
+        <p>Flower Rescued in 2019 (Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/cat_red_eye.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="cat laying down">
+        <p>Mr. Beans saved in 2017 (Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/one_eye_cat.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="cat missing eye">
+        <p>Nakki Rescued in 2023(Adoption Avail.)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/cats_hug.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="cats holding each other">
+        <p>Mike and Ike Rescued in 2022(Adopted)</p>
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="images/Cat_orange.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="orange cat stare">
+        <p> Shaky Rescued in 2023(Adoption Avail.)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/cat_white.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="kitten sitting ">
+        <p>Snowflake Rescued in 2021(Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/cat_yawn.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="cat yawning">
+        <p>Caeser Rescued in 2024(Adopted)</p>
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="images/cats_cuddle.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="two cats on curtain">
+        <p>Tyson and Marshmellow Rescued in 2021(Adoption Avail.)</p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img src="data:," class="w3-image" id="img01" alt="Alternative Text">
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <p>Follow us on Social Media</p>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    </div>
+    <p>Copyright &copy; 2024 Fluffy Ears Adoption <br> Utlizing Template from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+   
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+    
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-grey";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-grey", "");
+        }
+    }
+    
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,148 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-color:black;
+  background-image: url('images/cat-look.jpg');
+  animation: slide 8s 2s infinite;
+  min-height: 100%;
+}
+
+/* Second image (About) */
+.bgimg-2 {
+  background-image: url("images/dog_sleep.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("images/cat_autumn.jpg");
+  min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+  background-image: url("images/dog_yarn.jpg");
+  min-height: 400px;
+}
+
+/* fifth image (Contact) */
+.bgimg-5 {
+  background-image: url("images/cat-group.jpg");
+  min-height: 400px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: grey;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.text {
+  background-color: black;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: static;
+  bottom: 8px;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+@keyframes slide {
+  0%{background-image: url(images/cat-look.jpg);}
+  25%{background-image: url(images/two-dog-sit.jpg);}
+  50%{background-image: url(images/dogs-run.jpg);}
+  75%{background-image: url(images/cat-lay.jpg);}
+  100%{background-image: url(images/cat-look.jpg);}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+ 
